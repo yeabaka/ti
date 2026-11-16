@@ -1,0 +1,18 @@
+{
+  "name": "tizenbrew-video-app",
+  "appName": "Video App",
+  "version": "1.0.0",
+  "description": "Opens a video website on a Samsung TV with remote-control navigation and media keys.",
+  "packageType": "mods",
+  "websiteURL": "https://www.dailymotion.com",
+  "main": "userScript.js",
+  "keys": [
+    "MediaPlayPause",
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop",
+    "MediaFastForward",
+    "MediaRewind"
+  ],
+  "license": "MIT"
+}
