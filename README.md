@@ -13,14 +13,20 @@ To make a second app for a different site, copy this repo and change those two l
 
 ## Remote controls
 
+The remote drives an on-screen mouse pointer.
+
 | Button | What it does |
 |---|---|
-| Arrows | Move the blue highlight between links and buttons |
-| OK | Click the highlighted item |
+| Arrows | Move the pointer. A tap nudges it; holding glides it, faster the longer you hold |
+| Pointer at a screen edge | Scrolls the page, or the row under the pointer |
+| OK | Click whatever is under the pointer |
 | Back | Exit fullscreen, else go back a page, else close the app |
 | Play / Pause | Play or pause the video |
 | Fast-forward / Rewind | Skip 10 s forward or back |
-| Left / Right (fullscreen video) | Skip 10 s |
+
+The pointer hides after 6 seconds without moving. While a video is fullscreen and the pointer is hidden, Left/Right skip 10 s and OK plays/pauses. Press Up or Down to bring the pointer back.
+
+Pointer speed and timing are set at the top of `userScript.js`.
 
 Pop-ups and new tabs are blocked; links that would open a new tab open in the same window instead.
 
